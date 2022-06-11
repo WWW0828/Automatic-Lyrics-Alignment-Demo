@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./demo.css"/>
+    <script src="demo.js"></script>
+    <title>TryIt</title>
+</head>
+<body>
+    <header>
+        Lyrics Alignmnet
+    </header>
+    <section>
+        <div class="col-1">
+            <div class="img-block">
+                <img src="./src/pic/mp3.png" />
+            </div>
+            <label class="lab-mp3" for="song">Audio </label>
+            <input class="song" type='file' id="song" accept=".mp3" onchange="loadSong()">
+            <label class='lab-org' for="orglyric">Original Lyrics</label>
+            <input class='orglyric' type="file" id="orglyric" accept=".txt" onchange="readLyric()">
+            <label class='lab-ali' for="textfile">Align-Result</label>
+            <input class='textfile' type="file" id="textfile" accept=".txt" onchange="readTimestamp()">
+            <audio  id='playsong' controls onplay="alignLyrics()">
+                
+            </audio>
+        </div>
+        <div class="lyric" id="lyric"></div>
+    </section>
+    
+    
+</body>
+</html>                                               

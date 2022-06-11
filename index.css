@@ -1,0 +1,128 @@
+header {
+    height: 100px;
+    line-height: 100px;
+    font-size: 50px;
+    margin-left: 30px;
+    font-family: Arial, Verdana, sans-serif
+}
+
+p {
+    font-family: Arial, Verdana, sans-serif;
+    padding: 12px;
+    text-align: left;
+    font-size: 20px;
+}
+section {
+    background-color: rgb(233, 243, 246);
+    height: 716px;
+    width: 1720px;
+}
+iframe {
+    border-color: rgb(83, 120, 157);
+    border-width: 2px;
+    border-style: groove;
+    position: absolute;
+    left: 850px;
+    top: 290px;
+}
+.column-1 {
+    background-color: rgb(238, 248, 250);
+    border-style: solid;
+    border-radius: 10px;
+    width: 30%;
+    height: 606px;
+    margin-left: 270px;
+    margin-top: 58px;
+    margin-bottom: 58px;
+    text-align: center;
+}
+
+.column-1 h2 {
+    margin-top: 30px;
+}
+
+.column-2 {
+    background-color: rgb(233, 243, 246);
+    width: 40%;
+    height: 676px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.column-2 h2 {
+    margin-top: 100px;
+}
+
+.file {
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+
+label {
+    position: absolute;
+    left: 900px;
+}
+
+.label-mp3 {
+    top: 520px;
+}
+
+.mp3File {
+    top: 520px;
+}
+
+.label-lyric {
+    top: 570px;
+}
+
+.textFile {
+    top: 570px;
+}
+
+input {
+    position: absolute;
+    left: 1260px;
+}
+
+.column-2 label {
+    font-size: 20px;
+}
+
+.next-btn {
+    position: relative;
+    left: 240px;
+    top: 450px;
+    width: 170px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    border-width: 1.5px;
+    background-color: rgb(188, 226, 255);
+    border-color: rgb(171, 219, 255);
+    color: rgb(39, 73, 132);
+}
+
+.img-block {
+    height: 300px;
+    margin: 10px;
+}
+
+.lyric {
+    height: 550px;
+    width: 900px;
+    background-color: rgb(223, 240, 255);
+    margin: 50px;
+}
+
+img {
+    height: 200px;
+    width: auto;
+    margin-top: 50px;
+}
+
+
+input[type='file'] {
+    color: rgba(0, 0, 0, 0)
+  }

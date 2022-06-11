@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+        <link rel="stylesheet" href="./index.css"/>
+        <script src="index.js"></script>
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+			crossorigin="anonymous"
+		/>
+
+		<title>Home Page</title>
+	</head>
+	<body>
+        <header>
+            Lyrics Alignmnet
+        </header>
+
+        <section class="row">
+            <div class="column-1">
+                <h2>Introduction</h2>
+                <p>The topic of our MIR final project is "Lyrics Alignment". First we use source seperation library
+                   Spleeter to do vocal seperation. Next we cut the seperated vocal into several 30-sec clips (each 
+                   clip overlaps for 1 sec) and use Wav2Vec for speech recognition. After that, we run our 
+                   algorithm to align the recognition result to the original lyrics. Finally, do force alignment with 
+                   Wav2Vec and CTC algorithm and generate timestamp for each word in the lyrics.</p>
+                <h2>About us</h2>
+                <p>We are Group 4 - 黎哥粉絲後援會清大分會, our group consists of two 3rd-year and one 4th-year computer 
+                   science students.</p>
+            </div>
+            <div class="column-2">
+              <h2>See a quick demo</h2>           
+              <div>
+                <button class="next-btn" onclick="window.location.href='./demo.html'">Try other songs</button>
+              </div>
+              <iframe width="580" height="405" src="https://www.youtube.com/embed/CYsI-quWM4M">
+              </iframe>  
+              
+        </section>
+        
+        <footer>
+
+        </footer>
+
+		
+	</body>
+</html>
