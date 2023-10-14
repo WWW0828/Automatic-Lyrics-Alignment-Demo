@@ -1,6 +1,6 @@
 # Automatic Lyrics Alignment Demo Website
 - 11020CS573100 Music Information Retrieval Final Project @NTHU
-- Contributers: 翁玉芯、石郁琳、倪又晞
+- Contributors: 翁玉芯、石郁琳、倪又晞
 
 ## Overview
 ![architec](https://github.com/WWW0828/Automatic-Lyrics-Alignment-Demo/assets/67411184/5567015e-c567-4fd3-8eb3-5b306fd07165)
