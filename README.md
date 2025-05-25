@@ -10,6 +10,7 @@ We developed an word for word automatic lyrics alignment system to reduce manual
 ## Presentation & Demo
 - [Presentation Slides](https://drive.google.com/file/d/18TEIujJEuCL1GpubS4cRsKVVCoV-laCX/view?usp=sharing)
 - [YouTube Demo - The music of the night](https://www.youtube.com/watch?v=wB7LhVhrzXc)
+- [YouTube Demo - Taylor Swift 22](https://youtu.be/CYsI-quWM4M)
 
 ![demo](https://github.com/WWW0828/Automatic-Lyrics-Alignment-Demo/assets/67411184/4d440787-ba46-4989-8ce1-0592aa81f31e)
 
